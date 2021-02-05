@@ -1,0 +1,140 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Poppins;
+}
+body {
+
+    background: #f9f9f9;
+}
+div{
+    display: block;
+}
+form {
+    width: 19%;
+    position: absolute;
+    padding: 2% 2%;
+   
+}
+label {
+    display: block;
+    margin: 2% 0;
+}
+label i {
+    color: #999;
+    font-size: 80%;
+}
+input {
+    border-top-style: hidden;
+  border-right-style: hidden;
+  border-left-style: hidden;
+
+  border-bottom-color: lightgray;
+    padding: 10px;
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+  
+}
+
+
+.form-inline label, .form-inline input {
+    display: inline-block;
+    width: auto;
+    padding-right: 15px;
+}
+.error {
+    color: red;
+    font-size: 90%;
+}
+input[type="submit"] {
+    width: 50%;
+    font-size: 20px;
+    background: #1a1b1d;
+    color: #fff;
+    margin-top: 10%;
+    cursor: pointer;
+    border-radius: 30px;
+}
+input[type="submit"]:hover {
+    opacity: 0.7;
+}
+
+.body-container{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    background-color: white;
+}
+
+
+.mainphoto{
+    max-width: 100%;;
+}
+.info-container{
+    margin : 1%  ;
+}
+
+
+.singin{
+    margin-bottom: 5%;
+}
+.account{
+    margin: 5% 0;
+    font-size: 13px;
+    color: gray;
+}
+
+footer{
+
+    background-color: rgb(0, 0, 0);
+    color: aliceblue;
+    padding: 3% 0;
+   
+   }
+   .footer-elements{
+     display: flex;
+     flex-direction: row;
+     justify-content: space-around;
+     flex-wrap: wrap;
+     
+   }
+   .footer{
+      
+      font-family:Poppins ;
+   }
+   ul{
+     line-height: 2.5;
+     margin-top: 1%;
+     
+   }
+   
+   .footer-heading{
+      font-weight: bolder;
+     margin-bottom: 1%;
+     font-size:20;
+   }
+   .footer-a{
+    color: aliceblue;
+   }
+   ul, li, a{
+     list-style-type: none;
+     text-decoration: none;
+     color: aliceblue;
+     font-size: 14px;
+   }
+   .fa-mobile-alt,.fa-map-marker-alt, .fa-envelope, .fa-facebook, .fa-instagram{
+     font-size: 25px;
+     
+     color:rgb(255, 255, 255);
+   }
+   .fa-mobile-alt:hover{color: #bdac9d;}
+   .fa-map-marker-alt:hover{color: #bdac9d;}
+   .fa-envelope:hover{color: #bdac9d;}
+   .fa-facebook:hover{color: #bdac9d;}
+   .fa-instagram:hover{color: #bdac9d;}
+  
+   i{
+     padding-right: 5px;
+   }
+  
